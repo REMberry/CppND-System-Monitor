@@ -2,12 +2,14 @@
 #define PROCESS_H
 
 #include <string>
+using std::string;
 /*
 Basic class for Process representation
 It contains relevant attributes as shown below
 */
 class Process {
  public:
+  Process(int pid);
   int Pid();                               // TODO: See src/process.cpp
   std::string User();                      // TODO: See src/process.cpp
   std::string Command();                   // TODO: See src/process.cpp
@@ -18,6 +20,12 @@ class Process {
 
   // TODO: Declare any necessary private members
  private:
+  int _pid;
+  string _user;
+  string _command;
+  float _cpuUtilization;
+  string _ram;
+  long int _upTime;
 };
 
 #endif

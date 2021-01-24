@@ -7,6 +7,15 @@ class Processor {
 
   // TODO: Declare any necessary private members
  private:
+   private:
+  long _user;
+  long _nice;
+  long _system;
+  long _idle;
+  long _iowait;
+  long _irq;
+  long _softirq;
+  long _steal;
 };
 
 #endif
