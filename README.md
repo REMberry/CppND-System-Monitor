@@ -1,6 +1,6 @@
 # CppND-System-Monitor
 
-![System Monitor](images/monitor.png)
+![System Monitor](monitor.png)
 
 ## Udacity Linux Workspace
 [Udacity](https://www.udacity.com/) provides a browser-based Linux [Workspace](https://engineering.udacity.com/creating-a-gpu-enhanced-virtual-desktop-for-udacity-497bdd91a505) for students. 
